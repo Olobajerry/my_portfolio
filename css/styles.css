@@ -370,7 +370,7 @@ body{
     text-decoration: none;
 }
 /* ----MEDIA QUERY STARTS HERE----- */
-@media (max-width: 840px) {
+@media (max-width: 748px) {
     .navbar {
         background-color: rgba(0, 0, 0, 0.897);
         width: 100%;
@@ -421,7 +421,7 @@ body{
     }
     .profile-img img {
         padding: 10px;
-        height: 40vh;
+        /* height: 40vh; */
         width: 80%;
     }
     .profile-img {

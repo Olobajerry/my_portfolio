@@ -10,7 +10,7 @@ body{
 }
 /* <!---------INDEX STYLING STARTS HERE ------> */
 .navbar{
-    background-color: rgba(0, 0, 0, 0.897); ;
+    background-color: rgba(0, 0, 0, 0.897);
     width: 100%;
     height: 8px;
     max-width: 100%;
@@ -102,7 +102,7 @@ body{
 .hero-img img{
     width: 350px;
     height: 500px;
-    border-radius: 10px;
+    border-radius: 20px;
     margin-top: 80px;
 }
 .BTN a{
@@ -123,7 +123,7 @@ body{
 .about-section{
     background-color: #ffffff;
     max-width: 100%;
-    margin-top:120px;
+    margin-top:100px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -133,7 +133,7 @@ body{
     border-radius: 10px;
     text-align: center;
     width:350px;
-    height: 68vh;
+    height: 65vh;
     border: 5px solid white;
 }
 .profile-img{
@@ -218,7 +218,7 @@ body{
     max-width: 100%;
     justify-content: center;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 100px;
     padding:100px;
     background-color:  #d8930a
 }
@@ -251,7 +251,7 @@ body{
 /* -----SKILLS-SECTION STYLING STARTS HERE------ */
 .skills-text{
     background-color: #000000d8;
-    padding-bottom: 50px;
+    padding: 60px;
 }
 .my-skills{
     display: flex;
@@ -263,10 +263,10 @@ body{
 }
 .skills-text h1{
     font-family:sans-serif;
-    font-size: 38px;
+    font-size: 35px;
     color: white;
    text-align: center;
-   padding-top: 20px;
+   /* padding-top: 20px; */
 }
 .skills-text h1 span{
     color:#d8930a;
@@ -298,6 +298,136 @@ body{
 }
 .follow-text h1{
     color: white;
+}
+/* -------SEE-ME SECTION STYLING------ */
+.see-me-section{
+   max-width: 100%;
+   text-align: center;
+}
+.see-me-section .main{
+    display: flex;
+    justify-content: space-around;
+    background-color:  #0e0d0df1;
+    padding: 150px 80px 80px 80px;
+}
+.see-me-section img{
+    border-top-right-radius:60px;
+    border-bottom-left-radius:60px;
+    box-shadow:2px 4px 4px 10px white;
+    /* padding: 20px; */
+    margin-top: 30px;
+}
+.main .see-me-para{
+    padding-top: 60px;
+}
+.main h1{
+    font-family:serif;
+    font-size: 38px;
+    font-weight: bold;
+    color: white;
+}
+.main p{
+    font-weight: 800;
+    font-size: 20px;
+    color: #d8930a;
+    padding: 40px;
+    line-height: 40px;
+}
+.offers{
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.offers h1{
+    font-family:serif;
+    font-size: 35px;
+    font-weight: bold;
+    background-color:white;
+    color: rgba(97, 92, 92, 0.897);
+    padding:40px;
+    text-align: center;
+}
+.offers .btn{
+    margin-top: 60px;
+    text-align: center;
+}
+.offers .btn a{
+    background-color: #000000c0;
+    padding: 5px;
+    color: #d8930a;
+    text-decoration: none;
+}
+.offers i{
+    font-size: 50px;
+    color: #6d3939;
+}
+.first-carrier{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0 30px 0;
+}
+.sec-carrier{
+    display: flex;
+    justify-content: space-around; 
+    margin: 30px 0 0;
+}
+.trucking{
+    width: 40%;
+    height: 70vh;
+    background-color:#d8930a;
+    padding: 80px;
+}
+h4{
+    padding-bottom: 40px;
+    color: white;
+    font-family:serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+p{
+    color: rgba(97, 92, 92, 0.897);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 5px;
+}
+.trucking .location{
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    word-spacing: 10px;
+    line-height: 40px;
+}
+.frames{
+    width: 40%;
+    height: 70vh;
+    background-color:#d8930a;
+    padding: 80px;
+}
+.frames p{
+    color: rgba(97, 92, 92, 0.897);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 5px;
+}
+.frames li{
+    color:  rgba(0, 0, 0, 0.897);
+    /* color:  rgb(197, 195, 195); */
+    font-size: 18px;
+    font-style: oblique;
+    font-weight: bold;
+}
+.mobile{
+    width: 40%;
+    height: 70vh;
+    background-color:#d8930a;
+    padding: 80px;
+}
+.multi-market{
+    width: 40%;
+    height: 70vh;
+    background-color:#d8930a;
+    padding: 80px;
 }
 /*-----FOOTER-SECTION STYLING STARTS HERE------ */
 .footer{
@@ -369,7 +499,7 @@ body{
     color: black;
     text-decoration: none;
 }
-/* ----MEDIA QUERY STARTS HERE----- */
+/* ------------MEDIA QUERY STARTS HERE--------------- */
 @media (max-width: 748px) {
     .navbar {
         background-color: rgba(0, 0, 0, 0.897);
@@ -392,15 +522,20 @@ body{
     .nav-list .menu-bar {
         display: block;
     }
-    .index-content{
-        flex-direction: column;
+
+    .index-content {
         text-align: center;
         align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 0px;
+        padding: 30px 60px;
     }
     .lastname {
         color: white;
         position: absolute;
-        padding-left: 13px;
+        padding-left: 50px;
     }
     .content p {
         font-size: 13px;
@@ -427,21 +562,20 @@ body{
         padding: 15px;
     }
     .profile-img img {
-        padding: 10px;
-        /* height: 40vh; */
+        padding: 0px;
         width: 80%;
     }
     .profile-img {
          position: relative;
         top: -80px;
-        left: 2px;
+        left: 5px;
         margin-bottom:60px;
     }
     .about-para{
         display: flex;
         flex-direction: column;
-        padding:10px;
         background-color: white;
+        padding: 10px;
     }
     .about-text{
     font-family: Arial, Helvetica, sans-serif;
@@ -449,6 +583,9 @@ body{
     font-size: 20px;
     color: #d8930a;
     padding: 20px;
+    }
+    .portfolio{
+        margin-top: 0px;
     }
     .portfolio .portfolio-row{
         display: flex;
@@ -459,6 +596,11 @@ body{
         padding: 30px;
         display: flex;
         flex-direction: column;
+    }
+    .skills-text h1 i{
+        font-size: 30px;
+        color: #d8930a;
+        break-after: column;
     }
     .footer .contact-info{
         max-width: 100%;
@@ -512,48 +654,86 @@ body{
         flex-direction: column;
         padding: 10px 25px;
     }
-}
-
-/* @media (max-width:748px){
-    .about-section{
-        background-color: #ffffff;
-        max-width: 100%;
-        margin-top:120px;
+    .see-me-section img{
+       border-radius: 40px;
+        box-shadow:2px 4px 4px 10px;
+    }
+    .see-me-section .main{
         display: flex;
         flex-direction: column;
     }
-    .about-section .about-text p {
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: bold;
-        font-size: 18px;
-        color: #d8930a;
-        padding: 30px;
-        margin-bottom: 20px;
+    .main img{
+        width: 60%;
+        margin-left:20%;
     }
-    .profile-img img{
-        border-radius: 0;
+    .main p {
+        font-weight: 800;
+        font-size: 16px;
+        color: #d8930a;
+        padding: 10px 0px;
+        line-height: 20px;
+    }
+}
+
+/* ----------RESPONSIVENESS FOR SMALL SCREEN--------- */
+@media (max-width:360px) and (max-width:414px) {
+    .profile-img {
+        background-color:unset;
+        padding: 10px;
+        position: relative;
+        left: 25px;
+        /* top: 0px; */
+    }
+    .about-text {
+        font-size: 30px;
+        padding: 70px 20px;
+        height: 80vh;
+}
+.about-section .about-text p {
+    font-size: 20px;
+    padding: 20px 10px;
+} 
+.skills-text h1 {
+    font-size: 45px;
+    padding-top: 0px;
+}
+}
+
+/* ---------RESPONSIVENESS FOR SMALLER SCREEN-------- */
+@media (max-width:320px)  {
+    .lastname {
+        color: white;
+        position: absolute;
+        padding-left: 20px;
     }
     .profile-img {
-        background-color: #000;
-        padding: 10px;
-        text-align: center;
-        width: 350px;
-        border: 5px solid white;
+        position: relative;
+        top: -80px;
+        left: 20px;
+    }
+    .profile-img img {
+        /* padding: 40px; */
+        width: 80%;
+    }
+    .profile-img {
+        width: 300px;
+        height: 75vh;
+        border: none;
+    } 
+    .about-para p {
+        font-size: 17px;
+        font-weight: 100;
+        padding: 0px;
+    } 
+    .about-text {
+        height: 120vh;
+        font-size: 30px;
+        padding: 50px 5px;
     }
     .portfolio h1 {
         font-family: sans-serif;
-        font-size: 30px;
-        color: white;
-        text-align: center;
-        padding-bottom: 40px;
+        font-size: 25px;
+        font-weight:700;
     }
-    .lastname {
-        padding-left: 30px;
-    }
-    .content p {
-        font-size: 13px;
-        color: #d8930a;
-        padding-left: 0;
-        margin-top: 50px;
-    }
-} */
+    
+  }    

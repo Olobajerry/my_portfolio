@@ -7,7 +7,7 @@
     <title>my_portfolio_using_css/html</title>
     <!------- CSS STYLES LINK HERE------>
     <link rel="stylesheet" href="css/styles.css">
-    <!-- ---- LINK TO CDNJ ICONS------- -->
+    <!------ LINK TO CDNJ ICONS--------->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 
@@ -21,13 +21,8 @@
             <li><a href="#skills">Skills</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#contact">Contact</a></li>
-        </ul>
-        <div class="hamburger">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </div>
-    </nav>
+            <div class="menu-bar"><i class="fa-solid fa-bars"></i></div>
+        </ul</nav>
 
     <div class="index" id="index">
         <div class="index-content">
@@ -37,14 +32,11 @@
             <div class="content">
                 <div class="hero-text">
                     <div class="para">Hello! I'm</div>
-                    <div class="names">
-                        <h1 class="firstname">Ayomide Daniel</h1>
-                        <h1 class="lastname">Oluwamoroti</h1>
-                    </div>
+                    <div class="names"></div>
+                    <h1 class="firstname">Ayomide Daniel</h1>
+                    <h1 class="lastname">Oluwamoroti</h1>
                     <p>A competent Web Developer</p>
-                    <div class="fav-quote">
-                        A man who doesn't match his words is just a Boy who loves to talk...
-                    </div>
+                    <div class="fav-quote"> A man who doesn't match his words is just a Boy who loves to talk...</div>
                     <div class="BTN">
                         <button type="button"><a href="#about"><span>READ BIO ></span></a></button>
                     </div>
@@ -68,12 +60,11 @@
                     <div class="about-text">
                         <h2 class="underlined">About Me</h2>
                         <p>
-                            Hi, i'm a frontend Web Developer based in Nigeria, Who has a Deep passion for coding
-                            and continuous
+                            Hi, i'm a frontend Web Developer based in Nigeria, Who has a Deep passion for coding and continuous
                             improvement...I specialize in building a full-functioning websites that
                             makes your Business(Company) stand out among others.<br>
-                            Connect with me today and let's bring your imagination to life!<br>
-                        <div class="about-link"> <a href="#">See Me</a></div>
+                            Connect with me today and let's bring your imagination to life!<br> 
+                           <div class="about-link"> <a href="#">See Me</a></div>
                         </p>
                         <div class="about-icons">
                             <i class="fa-solid fa-less-than"></i>
@@ -141,9 +132,7 @@
                 <i class="fa-brands fa-facebook"></i>
                 <i class="fa-brands fa-youtube"></i>
                 <a href="https://x.com/olobajerry?s=21"><i class="fa-brands fa-square-x-twitter"></i></a>
-                <a
-                    href="https://www.tiktok.com/@olobajerry2990?_r=1&_d=ehad6bdh11802j&sec_uid=MS4wLjABAAAAasWDQTK2l129gmbSbxQDdu1HnPGGuMrzD7Spem62Nc779DDpZ0z3d9v1OhOgummL&share_author_id=7001221215490917381&sharer_language=en&source=h5_m&u_code=dkam9451997ddi&ug_btm=b8727,b0&social_share_type=4&utm_source=copy&sec_user_id=MS4wLjABAAAAasWDQTK2l129gmbSbxQDdu1HnPGGuMrzD7Spem62Nc779DDpZ0z3d9v1OhOgummL&tt_from=copy&utm_medium=ios&utm_campaign=client_share&enable_checksum=1&user_id=7001221215490917381&share_link_id=73C18395-40C8-445E-9496-9FB2252B8D06&share_app_id=1233"><i
-                        class="fa-brands fa-tiktok"></i></a>
+                <a href="https://www.tiktok.com/@olobajerry2990?_r=1&_d=ehad6bdh11802j&sec_uid=MS4wLjABAAAAasWDQTK2l129gmbSbxQDdu1HnPGGuMrzD7Spem62Nc779DDpZ0z3d9v1OhOgummL&share_author_id=7001221215490917381&sharer_language=en&source=h5_m&u_code=dkam9451997ddi&ug_btm=b8727,b0&social_share_type=4&utm_source=copy&sec_user_id=MS4wLjABAAAAasWDQTK2l129gmbSbxQDdu1HnPGGuMrzD7Spem62Nc779DDpZ0z3d9v1OhOgummL&tt_from=copy&utm_medium=ios&utm_campaign=client_share&enable_checksum=1&user_id=7001221215490917381&share_link_id=73C18395-40C8-445E-9496-9FB2252B8D06&share_app_id=1233"><i class="fa-brands fa-tiktok"></i></a>
                 <i class="fa-brands fa-instagram"></i>
             </div>
 
@@ -157,7 +146,7 @@
         <div class="contact-info">
             <div class="footer-img">
                 <img src="images/back-about.jpg" alt="footer image" width="200px"><br>
-                <a href="see-me.html" target="_blank">Read more about me</a>
+                <a href="see-me-page.html" target="_blank">Read more about me</a>
             </div>
 
             <div class="get-in-touch">
@@ -203,21 +192,6 @@
             </ul>
         </div>
     </div>
-
-    <!----------link to Javascript codes--------->
-    
-    <script>
-        document.addEventListener("DOMContentLoaded", () => {
-            const hamburger = document.querySelector(".hamburger");
-            const navList = document.querySelector(".nav-list");
-    
-            hamburger.addEventListener("click", () => {
-                console.log("Hamburger clicked");
-                navList.classList.toggle(".active");
-                hamburger.classList.toggle("toggle");
-            });
-        });
-    </script>
 </body>
 
 </html>
